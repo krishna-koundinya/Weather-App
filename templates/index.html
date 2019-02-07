@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+  </head>
+  <body>
+    <form action="/" method="POST">
+      <h2>Enter a number. The number will then be multiplied by 6.</h2>
+      <input name="submission">
+      <input type="submit" value="MULTIPLY BY 6!!!">
+      <p>{{answer}}</p>
+    </form>
+  </body>
+</html>
